@@ -14,9 +14,11 @@ const BookCard = (props) =>{
 <br/>
 <br/>
   <h4>{props.title}</h4>
+  <h6>{props.desc}</h6>
   <h6>{props.author}</h6>
-   <h6>{props.published}</h6>
-   <section class="box"> <button className="download"><a href= {props.link}>Open a book </a></button>
+  <h6>{props.published}</h6>
+  
+   <section className="box"> <button className="download"><a href= {props.link}>Open a book </a></button>
    <button className="download"><a href= {props.download}>Downlod it </a></button>
    </section> 
  

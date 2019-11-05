@@ -20,9 +20,11 @@ const BookList = (props) =>{
            author={book.volumeInfo.authors}
            published={book.volumeInfo.publishedDate}
            link={book.accessInfo.webReaderLink}
+           desc={book.volumeInfo.categories}
            download={book.accessInfo.pdf.acsTokenLink}
            
 
+           
 
         />
  
