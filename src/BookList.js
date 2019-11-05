@@ -3,15 +3,12 @@ import './App.css'
 import BookCard from './BookCard'
 // import Bok from './Bok';
 const BookList = (props) =>{
- 
-    return(
 
+    return(
 <div className="list">
 
    {
-       props.books.map((book,i)=>{
-
-       
+       props.books.map((book,i)=>{ 
          return   <BookCard 
            
            key={i}
@@ -23,9 +20,6 @@ const BookList = (props) =>{
            desc={book.volumeInfo.categories}
            download={book.accessInfo.pdf.acsTokenLink}
            
-
-           
-
         />
  
        })
@@ -34,7 +28,5 @@ const BookList = (props) =>{
 </div>
     
     )
-
-
 }
 export default BookList;
