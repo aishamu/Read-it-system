@@ -8,7 +8,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
      return (
        <div className="App">
          <Header/>
-         
         </div>
      )
    }
