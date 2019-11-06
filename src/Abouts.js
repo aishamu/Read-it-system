@@ -4,14 +4,14 @@ export default class Abouts extends Component {
     render() {
         return (
             <div>
-             
+                   <br/>   <br/>   
          <div className="text-picture">
   <div className="container">
     <div className="row">
       <div className="col-sm-6 text-picture__text">
         {/* <h2>Read It </h2> */}
   
-        <br/>   <br/>   <br/>
+  
         <h5>
         Read it is a social cataloging website that allows individuals to freely search of books , open it or download it
  </h5>
