@@ -12,9 +12,9 @@ export default class Abouts extends Component {
         {/* <h2>Read It </h2> */}
   
   
-        <h5 className="h05">
+        <h2 className="h05">
         Read it is a social cataloging website that allows individuals to freely search of books , open it or download it
- </h5>
+ </h2>
       </div>
  
        <div class="grid-container">
