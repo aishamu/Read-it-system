@@ -7,9 +7,9 @@ Read It
 Read it is a social cataloging website that allows individuals to freely search of books , open it or download it
 ### Technical Used
 React
-api
-
-
+axious and superAgent
+bootstrap
+Formik
 
 ### Wireframes
 Home page
@@ -35,13 +35,11 @@ As Reader,I would like a contact page to send a message to the admin
 As Reader,I would like a about page
 
 
-
-
-
 ## Planning and Development Process
 
 Day1: searched about an api and designed a web app
 Day2-Day3: Fetched data from api and display them on web page
+Day4:Deployment
 
 ### Problem-Solving Strategy
 
