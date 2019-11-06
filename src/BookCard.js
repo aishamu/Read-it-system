@@ -23,7 +23,5 @@ const BookCard = (props) =>{
 </div>
 </div>
          )
-
-
 }
 export default BookCard;

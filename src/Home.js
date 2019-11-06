@@ -21,29 +21,15 @@ export default class Home extends Component {
     render() {
       
         return (
-
-      <div className="container">
-        <br/>
-        <br/>
-       <div className="jumbotron">
+ <div className="container">
+        <br/><br/>
+   <div className="jumbotron">
          <h1 className = "large" >
   " {this.state.data.content} "
     </h1>
    <p>{this.state.data.author}</p>
    </div>
-   
-   {/* <img src=" https://www.abc.net.au/radionational/image/5224274-3x2-700x467.jpg"/> */}
-   </div>
-   
-
-  
- 
-
-
- 
-
- 
-  
+</div>
         )
     }
 }

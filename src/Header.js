@@ -17,9 +17,9 @@ const Header = () =>{
    <header className="page-header">
   <div className="container">
    <Navbar variant="dark">
-     <Navbar.Brand>   <img src="http://www.freeiconspng.com/uploads/book-icon-by-sonoftroll-26.png" width="100" alt="" /><h1>Read It</h1></Navbar.Brand>
+   <Navbar.Brand>   <img src="http://www.freeiconspng.com/uploads/book-icon-by-sonoftroll-26.png" width="100" alt="" /><h1>Read It</h1></Navbar.Brand>
    <Nav className="Navbar">
-   <Nav.Link href="/home" > Home</Nav.Link>
+   <Nav.Link href="/" > Home</Nav.Link>
    <Nav.Link href="/Books" > Books</Nav.Link>
    <Nav.Link href="/Abouts" > About</Nav.Link>
    <Nav.Link href="/contactus" > contactus</Nav.Link>
@@ -30,7 +30,7 @@ const Header = () =>{
    </div>
    </header>
    <Switch>
-   <Route path="/home" component={Home}/>
+   <Route exact path="/" component={Home}/>
    <Route path="/Abouts" component={Abouts}/>
    <Route path="/Books" component={Books}/>
    <Route path="/contactus" component={Contact}/>

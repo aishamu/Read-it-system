@@ -1,6 +1,6 @@
  import React, { Component } from 'react'
  import Header from './Header'
-  import './App.css'
+ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
  export default class App extends Component {
