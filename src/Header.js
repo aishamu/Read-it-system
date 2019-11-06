@@ -17,7 +17,8 @@ const Header = () =>{
    <header className="page-header">
   <div className="container">
    <Navbar variant="dark">
-   <Navbar.Brand>   <img src="http://www.freeiconspng.com/uploads/book-icon-by-sonoftroll-26.png" width="100" alt="" /><h1>Read It</h1></Navbar.Brand>
+ 
+   <Navbar.Brand>   <img src="https://www.pngtube.com/myfile/full/5-59887_books-icon-png-books-icon-png-free.png" width="100" alt="" /><h1>Read It</h1></Navbar.Brand>
    <Nav className="Navbar">
    <Nav.Link href="/" > Home</Nav.Link>
    <Nav.Link href="/Books" > Books</Nav.Link>

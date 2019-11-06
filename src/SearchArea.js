@@ -8,6 +8,7 @@ return(
      <form onSubmit={props.searchBook} action="">
          <div className="input-group w-100">
          <input onChange={props.handlesearch} type="text"className="form-control" placeholder="Search For..."/>
+         <br/>
          <button className="btn btn-primary"   type="submit"> Search</button> 
          </div>
 
