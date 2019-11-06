@@ -11,7 +11,7 @@ export default class Abouts extends Component {
       <div className="col-sm-6 text-picture__text">
         {/* <h2>Read It </h2> */}
   
-        <br/>
+        <br/>   <br/>   <br/>
         <h5>
         Read it is a social cataloging website that allows individuals to freely search of books , open it or download it
  </h5>
