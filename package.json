@@ -2,7 +2,7 @@
   "name": "demo-app0",
   "version": "0.1.0",
   "private": true,
-   "dependencies": {
+  "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/react-fontawesome": "^0.1.7",
     "axios": "^0.19.0",
